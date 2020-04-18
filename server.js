@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/boiling-journey-54607";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/enigmatic-river-07646";
 
 const options = {
   useNewUrlParser: true,
